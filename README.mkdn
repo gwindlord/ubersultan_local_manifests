@@ -1,0 +1,9 @@
+After doing repo sync:
+
+    cd .repo
+    git clone https://github.com/gwindlord/local_manifests.git
+    cd ..
+    repo sync
+
+to get Sultanxda's work
+
