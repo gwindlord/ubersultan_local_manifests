@@ -1,9 +1,16 @@
-After doing repo sync:
+To sync to build UberCM-12.1 in the current directory:
+
+    repo init -u git://github.com/UberCM/manifest.git -b uber-cm-12.1
+
+Then run:
+
+    repo sync
+
+After that do:
 
     cd .repo
     git clone https://github.com/gwindlord/local_manifests.git
     cd ..
     repo sync
 
-to get Sultanxda's work
-
+to get Sultanxda's work and convert ROM to UberSultan

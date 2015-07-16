@@ -5,8 +5,11 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="UberCM/packages_apps_CameraNext" />
-  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+
+ <!--My repositories to replace-->
+  <remove-project name="UberCM/proprietary_vendor_oneplus" />
+  <remove-project name="UberCM/proprietary_vendor_oppo" />
+  <remove-project name="UberCM/vendor_ubercm" />
 
  <!--Repositories to fetch-->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="cm-12.1" />
@@ -20,6 +23,9 @@
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-12.1-caf" />
   <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oppo" remote="github" revision="cm-12.1-caf" />
 
+ <!--My repositories to fetch-->
+  <project path="vendor/cm" name="UberCM/vendor_ubercm" remote="github" revision="cm-12.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/uber-arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bit" revision="master" />
   <project path="vendor/slim" name="gwindlord/vendor_slim" remote="github" revision="master" />
 
  <!--Repositories to remove-->
@@ -49,4 +55,14 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+ <!--My repositories to remove-->
+  <remove-project name="UberCM/packages_apps_CameraNext" />
+  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+  <remove-project name="UberCM/proprietary_vendor_lge" />
+  <remove-project name="UberCM/proprietary_vendor_asus" />
+  <remove-project name="TheMuppets/proprietary_vendor_motorola" />
+  <remove-project name="UberCM/delta" />
+  <remove-project name="UberCM/packages_apps_OpenDelta" />
+
 </manifest>
