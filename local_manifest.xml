@@ -6,6 +6,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="UberCM/packages_apps_CameraNext" />
+  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
 
  <!--Repositories to fetch-->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" revision="cm-12.1" />
@@ -15,7 +16,9 @@
   <project path="hardware/qcom/display-caf/msm8974" name="sultanxda/android_hardware_qcom_display" revision="cm-12.1-caf" />
   <project path="hardware/qcom/media-caf/msm8974" name="sultanxda/android_hardware_qcom_media" revision="cm-12.1-caf" />
   <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" revision="cm-12.1-caf" />
+  <!--project path="kernel/oneplus/msm8974" name="DerRomtester/android_kernel_oneplus_msm8974" revision="cm-12.1-caf" /-->
   <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-12.1-caf" />
+  <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oppo" remote="github" revision="cm-12.1-caf" />
 
   <project path="vendor/slim" name="gwindlord/vendor_slim" remote="github" revision="master" />
 
